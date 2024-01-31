@@ -1,4 +1,4 @@
-package com.premierdarkcoffee.plugins.sales_feature.data.model.sales
+package com.premierdarkcoffee.sales_feature.data.model.sales
 
 import kotlinx.serialization.Serializable
 

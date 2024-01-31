@@ -1,4 +1,4 @@
-package com.premierdarkcoffee.plugins.sales_feature.data.model.sales
+package com.premierdarkcoffee.sales_feature.data.model.sales
 
 import kotlinx.serialization.Serializable
 
@@ -9,4 +9,4 @@ data class Specifications(val models: List<String>? = null,
                           val finished: String? = null,
                           val inBox: List<String>? = null,
                           val kind: String? = null,
-                          val size: Size? = null)
+                          val size: com.premierdarkcoffee.sales_feature.data.model.sales.Size? = null)
