@@ -1,4 +1,4 @@
-package com.premierdarkcoffee.plugins
+package com.premierdarkcoffee.server
 
 import io.ktor.server.application.*
 import io.ktor.server.plugins.callloging.*

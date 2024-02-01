@@ -1,6 +1,6 @@
 package com.premierdarkcoffee
 
-import com.premierdarkcoffee.plugins.*
+import com.premierdarkcoffee.server.*
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {

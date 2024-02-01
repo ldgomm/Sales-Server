@@ -1,6 +1,6 @@
 package com.premierdarkcoffee
 
-import com.premierdarkcoffee.plugins.*
+import com.premierdarkcoffee.server.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
