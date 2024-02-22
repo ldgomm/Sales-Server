@@ -4,3 +4,4 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Control(var externalButtons: List<String>? = null)
+
