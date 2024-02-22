@@ -4,3 +4,4 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class RemoteControl(var type: List<String>, var voiceControl: Boolean? = null)
+

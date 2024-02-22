@@ -3,10 +3,10 @@ package com.premierdarkcoffee.sales_feature.data.model.sales
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Specifications(val models: List<String>? = null,
-                          val colours: List<String>? = null,
-                          val capacity: Int? = null,
-                          val finished: String? = null,
-                          val inBox: List<String>? = null,
-                          val kind: String? = null,
-                          val size: com.premierdarkcoffee.sales_feature.data.model.sales.Size? = null)
+data class Specifications(var models: List<String>,
+                          var colours: List<String>,
+                          var capacity: Int? = null,
+                          var finished: String? = null,
+                          var inBox: List<String>? = null,
+                          var kind: String? = null,
+                          var size: Size? = null)

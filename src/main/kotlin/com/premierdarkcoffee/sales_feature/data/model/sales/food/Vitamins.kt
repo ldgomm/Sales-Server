@@ -18,3 +18,4 @@ data class Vitamins(var vitaminD: Int? = null,
                     var biotin: Int? = null,
                     var pantothenicAcid: Int? = null,
                     var choline: Int? = null)
+

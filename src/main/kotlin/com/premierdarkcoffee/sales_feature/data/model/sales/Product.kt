@@ -1,23 +1,27 @@
 package com.premierdarkcoffee.sales_feature.data.model.sales
 
+import com.premierdarkcoffee.sales_feature.data.model.sales.drink.Drink
+import com.premierdarkcoffee.sales_feature.data.model.sales.food.Food
+import com.premierdarkcoffee.sales_feature.data.model.sales.medicine.Medicine
+import com.premierdarkcoffee.sales_feature.data.model.sales.metal.Metal
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Product(var id: String,
-              var codes: Codes? = null,
-              var images: Images,
-              var name: String,
-              var overview: List<Information>,
-              var specifications: Specifications? = null,
-              var offer: Offer,
-              var origin: String,
-              var price: Price,
-              var stock: Int,
-              var category: Category,
-              var keywords: List<String>,
-              var warranty: Warranty? = null,
-              var legal: String? = null,
-              var warning: String? = null)
-
-
-
+data class Product(val id: String,
+                   val category: Category,
+                   val codes: Codes? = null,
+                   val images: Images,
+                   val keywords: List<String>,
+                   val name: String,
+                   val origin: String,
+                   val overview: List<Information>,
+                   val price: Price,
+                   val specifications: Specifications,
+                   val stock: Int,
+                   val warranty: Warranty,
+                   val legal: String? = null,
+                   val warning: String? = null,
+                   val drinkFeature: Drink? = null,
+                   val foodFeature: Food? = null,
+                   val medicineFeature: Medicine? = null,
+                   val metalFeature: Metal? = null)
