@@ -16,3 +16,4 @@ data class Minerals(var calcium: Int? = null,
                     var chromium: Int? = null,
                     var molybdenum: Int? = null,
                     var chloride: Int? = null)
+

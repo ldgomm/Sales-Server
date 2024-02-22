@@ -1,5 +1,6 @@
 package com.premierdarkcoffee.sales_feature.data.model.sales.food
 
+import com.premierdarkcoffee.sales_feature.data.model.sales.food.Tuple
 import kotlinx.serialization.Serializable
 
 @Serializable

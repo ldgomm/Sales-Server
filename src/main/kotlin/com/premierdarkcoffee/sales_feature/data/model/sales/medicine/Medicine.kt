@@ -1,13 +1,12 @@
 package com.premierdarkcoffee.sales_feature.data.model.sales.medicine
 
-import com.premierdarkcoffee.sales_feature.data.model.sales.Product
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Medicine(val product: Product,
-                    var administration: String? = null,
-                    var dosage: String? = null,
-                    var sideEffects: String? = null,
+data class Medicine(var activeIngredientContent: String? = null,
+                    var administration: String,
                     var contraindications: String? = null,
-                    var activeIngredientContent: String? = null,
-                    var laboratory: String? = null)
+                    var dosage: String? = null,
+                    var laboratory: String,
+                    var sideEffects: String? = null)
+

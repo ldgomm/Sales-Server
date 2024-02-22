@@ -1,13 +1,12 @@
 package com.premierdarkcoffee.sales_feature.data.model.sales.metal
 
-import com.premierdarkcoffee.sales_feature.data.model.sales.Product
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Metal(val product: Product,
-                 var accessories: List<String>? = null,
+data class Metal(var accessories: List<String>? = null,
                  var applications: List<String>? = null,
                  var camera: Camera? = null,
+                 var computerFeature: ComputerFeature? = null,
                  var control: Control? = null,
                  var coolingSystem: List<String>? = null,
                  var display: Display? = null,
@@ -22,3 +21,4 @@ data class Metal(val product: Product,
                  var softwareUpdates: Boolean? = null,
                  var storage: Storage? = null,
                  var waterproof: Waterproof? = null)
+
